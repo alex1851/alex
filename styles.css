@@ -64,7 +64,10 @@ li a:hover {
   color:white;
 }
 
+/*MENU*/
 .menu {
+     padding: 20px;
+     background-color: #66f705;
      border-radius: 15px;
      width: 25%;
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15)
