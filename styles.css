@@ -48,7 +48,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: #fdec01;
 }
 
 li a {
@@ -61,5 +61,27 @@ li a {
 /* Change the link and background color on hover */
 li a:hover {
   background-color: #555555;
-  color: white;
+  color:white;
+}
+
+.menu {
+     border-radius: 15px;
+     width: 25%;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15)
+}
+
+.menu a {
+     display:block;
+     color: rgb(0, 162, 255);
+     text-decoration: none;
+     padding: 12px;
+     margin-bottom: 10px;
+     border-radius: 8px;
+     background-color: rgba(255,255,255,0.15);
+     transition: 0.3s;
+}
+
+.menu a:hover {
+  background-color:rgb(98, 0, 255);
+  color:#1f7a32;
 }
